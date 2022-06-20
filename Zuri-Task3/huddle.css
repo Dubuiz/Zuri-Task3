@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+    font-family: sans-serif;
+    margin: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav img{
+    height: 35px;
+    color: black;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btn{
+    background-color: white;
+    margin-top: 20px;
+    padding: 24px 80px;
+    border-radius: 40px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    color: black;
+    
+}
+.build1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px 20px;
+}
+.build{
+    width: 45%;
+}
+.email{
+    width: 55%;
+}
+.build h1{
+    font-size: 42px;
+    padding-right: 40px;
+    margin: 25px 0px;
+}
+.build p{
+    padding-right: 40px;
+    margin: 25px 0;
+    color: hsl(208, 11%, 55%);
+}
+header{
+    background: url(images-20220614T080821Z-001/images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 60px;
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 120px 80px 40px;
+}
+.grow{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 50px 10px 50px 65px;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.grow img{
+    width: 520px;
+    max-width: 100%;
+    padding: 15px 80px 15px 60px;
+}
+.grow1{
+    padding-left: 70px;
+}
+.grow1 p{
+    margin-top: 60px;
+    width: 100%;
+    color: hsl(208, 11%, 55%);
+}
+.conv{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 50px 10px 50px 65px;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 0;
+}
+.conv img{
+    width: 520px;
+    max-width: 100%;
+    padding: 15px 80px 15px 60px;
+}
+.conv1{
+    padding-right: 50px;
+}
+.conv1 p{
+    margin-top: 60px;
+    width: 100%;
+    color: hsl(208, 11%, 55%);
+}
+.users{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 50px 10px 50px 65px;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 0;
+
+}
+.users img{
+    width: 520px;
+    max-width: 100%;
+    padding: 15px 80px 15px 60px;
+}
+.users1{
+    padding-left: 70px;
+}
+.users1 p{
+    margin-top: 40px;
+    width: 100%;
+    color: hsl(208, 11%, 55%);
+}
+.ready{
+    position: relative;
+    max-width: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    padding: 60px 0px;
+    box-sizing: 0 3px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    margin-bottom: -105px;
+}
+.ready h1{
+    margin-bottom: 15px;
+}
+.btn2{
+    margin-top: 20px;
+    padding: 24px 100px;
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 200px 100px 30px;
+}
+.foot{
+    display: flex;
+    margin: 40px 0px;
+}
+.foot-logo{
+    width: 250px;
+    color: white;
+}
+.foot1{
+    min-width: 40%;
+    width: 40%;
+}
+.footprop{
+    display: flex;
+    align-items: flex-start;
+}
+.footprop img{
+    margin-top: 4px;
+    margin-right: 20px;
+}
+li{
+    margin-bottom: 20px;
+    padding-right: 60px;
+    opacity: 0.9;
+    list-style: none;
+}
+.foot2{
+    width: 20%;
+    margin-left: 30px;
+}
+.foot3{
+    width: 20%;
+    margin-left: 30px;
+}
+.foot4{
+    width: 20%;
+    margin-left: 30px;
+}
+.social{
+    display: flex;
+    padding: 0;
+}
+a{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.social li{
+    padding: 0px 7px;
+}
+.copy{
+    text-align: right;
+}
+@media (max-width: 992px){
+    header{
+        padding: 30px 20px;
+    }
+    .build1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .build{
+        width: 95%;
+    }
+    .email{
+        margin-top: 30px;
+        width: 95%;
+    }
+    .build p,
+    .build h1{
+        padding: 0;
+    }
+    .sections{
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    .grow{
+        flex-direction: column;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: 0;
+    }
+    .conv,
+    .users{
+        flex-direction: column-reverse;
+    }
+    .sections p{
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+    .grow1
+    .conv1
+    .users1{
+        padding: 0 10px;
+        width: 95%;
+        margin: 30px 0 20px 0;
+    }
+    .ready{
+        width: 95%;
+        text-align: center;
+    }
+    .h1{
+        font-size: 28px;
+    }
+    .ready button{
+        padding: 15px 60px;
+        font-size: 16px;
+    }
+    footer{
+        padding-left: 30px;
+        padding-right: 0;
+    }
+    .foot{
+        flex-direction: column;
+    }
+    .foot1{
+        width: 90%;
+    }
+    .foot2,
+    .foot3,
+    .foot4 {
+        margin-left: 0;
+        width: 100px;
+    }
+    .foot4{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin: 30px 0 0;
+        margin-bottom: -20px;
+    }
+    .copy{
+        text-align: center;
+    }
+}
+@media (max-width: 552px){
+    nav img,
+    .foot-logo {
+        width: 150px;
+        height: 25px;
+    }
+    nav button{
+        padding: 8px 20px;
+    }
+    .h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 22px;
+    }
+.btn2{
+    padding: 15px 25px;
+    font-size: 14px;
+}
+}
